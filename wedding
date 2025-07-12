@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Wedding Photography | Athiramol Photography</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" />
+
+  <!-- Hotjar Tracking Code for Site 6462273 -->
+  <script>
+    (function(h,o,t,j,a,r){
+        h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
+        h._hjSettings={hjid:6462273,hjsv:6};
+        a=o.getElementsByTagName('head')[0];
+        r=o.createElement('script');r.async=1;
+        r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
+        a.appendChild(r);
+    })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
+  </script>
+</head>
+<body class="bg-light text-dark">
+
+  <div class="container py-5">
+    <h1 class="text-center mb-4">Wedding Photography</h1>
+
+    <!-- Section 1: Service Name -->
+    <div class="mb-5">
+      <h3>Service Name: Wedding Photography</h3>
+      <img src="https://images.pexels.com/photos/2253870/pexels-photo-2253870.jpeg" class="img-fluid rounded mb-3" alt="Wedding Service" />
+      <p>We offer professional wedding photography that captures the love, laughter, and moments that make your big day unforgettable.</p>
+      <button class="btn btn-success" onclick="addToCart('Wedding Photography - Service')">Add to Cart</button>
+    </div>
+
+    <!-- Section 2: Service Details -->
+    <div class="mb-5">
+      <h3>Service Details</h3>
+      <img src="https://images.pexels.com/photos/2253870/pexels-photo-2253870.jpeg" class="img-fluid rounded mb-3" alt="Wedding Details" />
+      <p>From the walk down the aisle to candid moments with guests, we document your entire celebration with elegance and artistic flair.</p>
+      <button class="btn btn-success" onclick="addToCart('Wedding Photography - Details')">Add to Cart</button>
+    </div>
+
+    <!-- Section 3: Package Info -->
+    <div class="mb-5">
+      <h3>Photography Package</h3>
+      <img src="https://images.pexels.com/photos/2253870/pexels-photo-2253870.jpeg" class="img-fluid rounded mb-3" alt="Wedding Package" />
+      <p>Our standard package includes 8 hours of coverage, 200+ edited photos, and an online gallery. Price: £499</p>
+      <button class="btn btn-success" onclick="addToCart('Wedding Photography - Package')">Add to Cart</button>
+    </div>
+  </div>
+
+  <script>
+    function addToCart(item) {
+      alert(item + " added to cart!");
+    }
+  </script>
+</body>
+</html>
